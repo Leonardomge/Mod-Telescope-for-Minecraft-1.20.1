@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/celestron_astromaster_70az"
+    },
+    "facing=south": {
+      "model": "telescopio:block/celestron_astromaster_70az"
+    },
+    "facing=east": {
+      "model": "telescopio:block/celestron_astromaster_70az"
+    },
+    "facing=west": {
+      "model": "telescopio:block/celestron_astromaster_70az"
+    }
+  }
+}

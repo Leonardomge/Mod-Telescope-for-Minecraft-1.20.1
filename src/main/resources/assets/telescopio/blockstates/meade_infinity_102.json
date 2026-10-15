@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/meade_infinity_102"
+    },
+    "facing=south": {
+      "model": "telescopio:block/meade_infinity_102"
+    },
+    "facing=east": {
+      "model": "telescopio:block/meade_infinity_102"
+    },
+    "facing=west": {
+      "model": "telescopio:block/meade_infinity_102"
+    }
+  }
+}

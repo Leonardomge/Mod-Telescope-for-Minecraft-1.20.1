@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/celestron_c14_cgxl"
+    },
+    "facing=south": {
+      "model": "telescopio:block/celestron_c14_cgxl"
+    },
+    "facing=east": {
+      "model": "telescopio:block/celestron_c14_cgxl"
+    },
+    "facing=west": {
+      "model": "telescopio:block/celestron_c14_cgxl"
+    }
+  }
+}

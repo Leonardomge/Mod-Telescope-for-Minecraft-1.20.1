@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/celestron_nexstar_6se"
+    },
+    "facing=south": {
+      "model": "telescopio:block/celestron_nexstar_6se"
+    },
+    "facing=east": {
+      "model": "telescopio:block/celestron_nexstar_6se"
+    },
+    "facing=west": {
+      "model": "telescopio:block/celestron_nexstar_6se"
+    }
+  }
+}

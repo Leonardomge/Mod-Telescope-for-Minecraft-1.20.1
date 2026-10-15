@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/william_optics_redcat_51"
+    },
+    "facing=south": {
+      "model": "telescopio:block/william_optics_redcat_51"
+    },
+    "facing=east": {
+      "model": "telescopio:block/william_optics_redcat_51"
+    },
+    "facing=west": {
+      "model": "telescopio:block/william_optics_redcat_51"
+    }
+  }
+}

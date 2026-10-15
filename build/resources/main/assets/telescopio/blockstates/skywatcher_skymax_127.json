@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/skywatcher_skymax_127"
+    },
+    "facing=south": {
+      "model": "telescopio:block/skywatcher_skymax_127"
+    },
+    "facing=east": {
+      "model": "telescopio:block/skywatcher_skymax_127"
+    },
+    "facing=west": {
+      "model": "telescopio:block/skywatcher_skymax_127"
+    }
+  }
+}

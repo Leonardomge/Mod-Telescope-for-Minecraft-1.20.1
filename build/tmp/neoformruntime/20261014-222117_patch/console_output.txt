@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Program Files\Android\Android Studio\jbr\bin\java.exe
+ - --sun-misc-unsafe-memory-access=allow
+ - -jar
+ - C:\Users\User\.gradle\caches\modules-2\files-2.1\io.codechicken\DiffPatch\2.0.0.36\5b32f9baa0c0371c0dc80a3b88794960af0c6b44\DiffPatch-2.0.0.36-all.jar
+ - C:\Users\User\.gradle\caches\neoformruntime\intermediate_results\inject_796057ee01bc7a81fdb69638d829e32675db95a1_output.jar
+ - patches\joined
+ - --patch
+ - --archive
+ - ZIP
+ - --output
+ - ./output.zip
+ - --log-level
+ - WARN
+ - --mode
+ - OFFSET
+ - --archive-rejects
+ - ZIP
+ - --reject
+ - ./outputRejects.zip
+ - --base-path-prefix
+ - a/
+ - --modified-path-prefix
+ - b/
+--------------------------------------------------------------------------------
+

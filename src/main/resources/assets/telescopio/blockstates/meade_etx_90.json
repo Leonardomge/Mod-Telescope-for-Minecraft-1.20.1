@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/meade_etx_90"
+    },
+    "facing=south": {
+      "model": "telescopio:block/meade_etx_90"
+    },
+    "facing=east": {
+      "model": "telescopio:block/meade_etx_90"
+    },
+    "facing=west": {
+      "model": "telescopio:block/meade_etx_90"
+    }
+  }
+}

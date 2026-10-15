@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/meade_lx200_12_acf"
+    },
+    "facing=south": {
+      "model": "telescopio:block/meade_lx200_12_acf"
+    },
+    "facing=east": {
+      "model": "telescopio:block/meade_lx200_12_acf"
+    },
+    "facing=west": {
+      "model": "telescopio:block/meade_lx200_12_acf"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:optical_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "telescopio:fork_mount"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "telescopio:meade_lx200_12_acf",
+    "count": 1
+  }
+}

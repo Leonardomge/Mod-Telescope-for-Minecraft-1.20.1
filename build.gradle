@@ -1,0 +1,88 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    // ModDevGradle "legacyforge": ambiente de desenvolvimento para Forge 1.17 - 1.20.1 (compatível com Gradle 9)
+    id 'net.neoforged.moddev.legacyforge' version '2.0.148'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = "${mod_id}-${minecraft_version}"
+}
+
+// O Minecraft 1.20.1 roda em Java 17
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+legacyForge {
+    version = "${minecraft_version}-${forge_version}"
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+        // servidor de testes sem janela: carrega o mod e todas as receitas/loot tables e encerra
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'forge.enabledGameTestNamespaces', mod_id
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+// O NeoForm Runtime (que baixa e prepara o Minecraft) roda num processo Java separado. Se a JVM
+// do Gradle já for Java 21+, usamos ela mesma: evita depender de um segundo JDK (útil quando um
+// firewall só libera a internet para um Java específico).
+if (JavaVersion.current().isCompatibleWith(JavaVersion.VERSION_21)) {
+    def javaBin = new File(System.getProperty('java.home'),
+            System.getProperty('os.name').toLowerCase().contains('win') ? 'bin/java.exe' : 'bin/java')
+    tasks.withType(net.neoforged.nfrtgradle.NeoFormRuntimeTask).configureEach {
+        javaExecutable = javaBin.absolutePath
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version, minecraft_version_range: minecraft_version_range,
+            forge_version          : forge_version, forge_version_range: forge_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors            : mod_authors, mod_description: mod_description,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1',
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.version,
+                'Implementation-Vendor'   : mod_authors
+        ])
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

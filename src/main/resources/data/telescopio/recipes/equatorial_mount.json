@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "IRI",
+    " T "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "telescopio:tripod"
+    }
+  },
+  "result": {
+    "item": "telescopio:equatorial_mount",
+    "count": 1
+  }
+}

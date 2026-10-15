@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/takahashi_fsq106edx4"
+    },
+    "facing=south": {
+      "model": "telescopio:block/takahashi_fsq106edx4"
+    },
+    "facing=east": {
+      "model": "telescopio:block/takahashi_fsq106edx4"
+    },
+    "facing=west": {
+      "model": "telescopio:block/takahashi_fsq106edx4"
+    }
+  }
+}

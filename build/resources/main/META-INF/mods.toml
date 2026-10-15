@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="telescopio"
+version="1.0.0"
+displayName="Mod Telescópio"
+authors="Leonardo"
+description='''Telescópios reais (Sky-Watcher, Celestron, Meade, Takahashi, William Optics, Orion) que você coloca no mundo e usa para observar com zoom de verdade.'''
+
+[[dependencies.telescopio]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.telescopio]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
