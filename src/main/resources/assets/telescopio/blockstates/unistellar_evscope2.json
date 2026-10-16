@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/unistellar_evscope2"
+    },
+    "facing=south": {
+      "model": "telescopio:block/unistellar_evscope2"
+    },
+    "facing=east": {
+      "model": "telescopio:block/unistellar_evscope2"
+    },
+    "facing=west": {
+      "model": "telescopio:block/unistellar_evscope2"
+    }
+  }
+}

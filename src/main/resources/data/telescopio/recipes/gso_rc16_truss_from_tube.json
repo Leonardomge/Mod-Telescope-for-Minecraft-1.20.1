@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_gso_rc16_truss"
+    },
+    {
+      "item": "telescopio:fork_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    }
+  ],
+  "result": {
+    "item": "telescopio:gso_rc16_truss",
+    "count": 1
+  }
+}

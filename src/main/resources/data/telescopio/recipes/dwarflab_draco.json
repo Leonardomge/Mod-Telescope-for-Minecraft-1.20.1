@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:astro_camera"
+    },
+    {
+      "item": "telescopio:astro_camera"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    },
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "item": "telescopio:tripod"
+    }
+  ],
+  "result": {
+    "item": "telescopio:dwarflab_draco",
+    "count": 1
+  }
+}

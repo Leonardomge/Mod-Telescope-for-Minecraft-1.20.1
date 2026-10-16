@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:carbon_tube"
+    },
+    {
+      "item": "telescopio:astro_camera"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "item": "telescopio:tubo_planewave_cdk17",
+    "count": 1
+  }
+}

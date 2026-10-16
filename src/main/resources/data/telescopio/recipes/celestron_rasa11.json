@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:optical_tube"
+    },
+    {
+      "item": "telescopio:astro_camera"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    }
+  ],
+  "result": {
+    "item": "telescopio:celestron_rasa11",
+    "count": 1
+  }
+}

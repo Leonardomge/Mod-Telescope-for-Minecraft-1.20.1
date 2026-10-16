@@ -15,12 +15,22 @@ base {
 // O Minecraft 1.20.1 roda em Java 17
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
+// Teste automático com capturas de tela (só desenvolvimento): gradlew runClient -Pautotest=true
+def autotest = (project.findProperty('autotest') ?: 'false').toString().toBoolean()
+
 legacyForge {
     version = "${minecraft_version}-${forge_version}"
 
     runs {
         client {
             client()
+            systemProperty 'telescopio.autotest', autotest.toString()
+            if (autotest) {
+                programArgument '--width'
+                programArgument '1280'
+                programArgument '--height'
+                programArgument '720'
+            }
         }
         server {
             server()
@@ -71,6 +81,10 @@ tasks.named('processResources', ProcessResources).configure {
 }
 
 tasks.named('jar', Jar).configure {
+    if (!autotest) {
+        // o código do teste automático não vai para o .jar distribuído
+        exclude 'com/modtelescopio/autotest/**'
+    }
     manifest {
         attributes([
                 'Specification-Title'     : mod_id,

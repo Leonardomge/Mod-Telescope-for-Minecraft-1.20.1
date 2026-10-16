@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/zwo_seestar_s30"
+    },
+    "facing=south": {
+      "model": "telescopio:block/zwo_seestar_s30"
+    },
+    "facing=east": {
+      "model": "telescopio:block/zwo_seestar_s30"
+    },
+    "facing=west": {
+      "model": "telescopio:block/zwo_seestar_s30"
+    }
+  }
+}

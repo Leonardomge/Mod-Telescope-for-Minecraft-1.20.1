@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_star_adventurer_gti"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_star_adventurer_gti"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_star_adventurer_gti"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_star_adventurer_gti"
+    }
+  }
+}

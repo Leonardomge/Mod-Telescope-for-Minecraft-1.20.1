@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: telescopio
-Specification-Vendor: Leonardo
-Specification-Version: 1
-Implementation-Title: ModTelescopio-1.20.1
-Implementation-Version: 1.0.0
-Implementation-Vendor: Leonardo
-

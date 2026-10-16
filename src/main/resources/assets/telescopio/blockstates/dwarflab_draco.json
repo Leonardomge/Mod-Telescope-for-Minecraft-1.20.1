@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/dwarflab_draco"
+    },
+    "facing=south": {
+      "model": "telescopio:block/dwarflab_draco"
+    },
+    "facing=east": {
+      "model": "telescopio:block/dwarflab_draco"
+    },
+    "facing=west": {
+      "model": "telescopio:block/dwarflab_draco"
+    }
+  }
+}

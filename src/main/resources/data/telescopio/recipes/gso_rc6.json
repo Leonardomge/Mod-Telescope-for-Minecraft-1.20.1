@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:optical_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    }
+  ],
+  "result": {
+    "item": "telescopio:gso_rc6",
+    "count": 1
+  }
+}

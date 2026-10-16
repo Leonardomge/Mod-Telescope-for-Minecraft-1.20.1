@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_skywatcher_evostar_150"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    }
+  ],
+  "result": {
+    "item": "telescopio:skywatcher_evostar_150",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/planewave_cdk24"
+    },
+    "facing=south": {
+      "model": "telescopio:block/planewave_cdk24"
+    },
+    "facing=east": {
+      "model": "telescopio:block/planewave_cdk24"
+    },
+    "facing=west": {
+      "model": "telescopio:block/planewave_cdk24"
+    }
+  }
+}

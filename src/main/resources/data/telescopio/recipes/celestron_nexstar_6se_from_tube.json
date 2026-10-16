@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_celestron_nexstar_6se"
+    },
+    {
+      "item": "telescopio:fork_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    }
+  ],
+  "result": {
+    "item": "telescopio:celestron_nexstar_6se",
+    "count": 1
+  }
+}

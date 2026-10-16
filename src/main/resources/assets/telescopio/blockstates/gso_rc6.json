@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/gso_rc6"
+    },
+    "facing=south": {
+      "model": "telescopio:block/gso_rc6"
+    },
+    "facing=east": {
+      "model": "telescopio:block/gso_rc6"
+    },
+    "facing=west": {
+      "model": "telescopio:block/gso_rc6"
+    }
+  }
+}

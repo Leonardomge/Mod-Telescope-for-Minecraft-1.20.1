@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:primary_mirror"
+    },
+    {
+      "item": "telescopio:optical_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "result": {
+    "item": "telescopio:tubo_celestron_astromaster_130eq",
+    "count": 1
+  }
+}

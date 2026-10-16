@@ -12,10 +12,10 @@
       "item": "telescopio:eyepiece"
     },
     {
-      "item": "telescopio:dobsonian_base"
+      "item": "minecraft:blue_dye"
     },
     {
-      "item": "minecraft:blue_dye"
+      "item": "telescopio:dobsonian_base"
     }
   ],
   "result": {

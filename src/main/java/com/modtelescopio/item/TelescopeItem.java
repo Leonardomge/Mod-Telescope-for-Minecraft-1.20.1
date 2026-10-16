@@ -15,10 +15,9 @@ import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Locale;
 import java.util.function.Consumer;
 
-/** Item do telescópio, desenhado em 3D pelo {@link TelescopeItemRenderer}. */
+/** Item do telescópio completo, desenhado em 3D pelo {@link TelescopeItemRenderer}. */
 public class TelescopeItem extends BlockItem {
     public TelescopeItem(TelescopeBlock block, Properties properties) {
         super(block, properties);
@@ -31,10 +30,7 @@ public class TelescopeItem extends BlockItem {
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> lines, TooltipFlag flag) {
         TelescopeType t = type();
-        String ratio = String.format(Locale.ROOT, "%.1f", t.focalRatio());
-        lines.add(Component.translatable("telescopio.tooltip.optics", Component.translatable(t.design.langKey()),
-                t.aperture, ratio).withStyle(ChatFormatting.AQUA));
-        lines.add(Component.translatable("telescopio.tooltip.focal", t.focal).withStyle(ChatFormatting.GRAY));
+        Tooltips.optics(lines, t);
         MutableComponent mount = Component.translatable(t.mount.langKey());
         if (!t.mountName.isEmpty()) {
             mount = mount.append(" (" + t.mountName + ")");
@@ -43,7 +39,8 @@ public class TelescopeItem extends BlockItem {
         if (t.goTo) {
             lines.add(Component.translatable("telescopio.tooltip.goto").withStyle(ChatFormatting.GREEN));
         }
-        lines.add(Component.translatable("telescopio.tooltip.use").withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.ITALIC));
+        Tooltips.extras(lines, t);
+        Tooltips.hint(lines, "telescopio.tooltip.use");
     }
 
     @Override

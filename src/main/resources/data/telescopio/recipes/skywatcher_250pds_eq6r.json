@@ -12,13 +12,13 @@
       "item": "telescopio:eyepiece"
     },
     {
-      "item": "telescopio:equatorial_mount"
-    },
-    {
       "item": "minecraft:black_dye"
     },
     {
       "item": "minecraft:iron_block"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
     }
   ],
   "result": {

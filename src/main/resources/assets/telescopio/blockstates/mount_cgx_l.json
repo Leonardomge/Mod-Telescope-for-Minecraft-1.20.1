@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_cgx_l"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_cgx_l"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_cgx_l"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_cgx_l"
+    }
+  }
+}

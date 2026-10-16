@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_celestron_astromaster_70az"
+    },
+    {
+      "item": "telescopio:tripod"
+    }
+  ],
+  "result": {
+    "item": "telescopio:celestron_astromaster_70az",
+    "count": 1
+  }
+}

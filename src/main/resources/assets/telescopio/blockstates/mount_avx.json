@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_avx"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_avx"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_avx"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_avx"
+    }
+  }
+}

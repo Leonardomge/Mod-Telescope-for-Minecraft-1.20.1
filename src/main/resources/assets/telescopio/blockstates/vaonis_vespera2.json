@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/vaonis_vespera2"
+    },
+    "facing=south": {
+      "model": "telescopio:block/vaonis_vespera2"
+    },
+    "facing=east": {
+      "model": "telescopio:block/vaonis_vespera2"
+    },
+    "facing=west": {
+      "model": "telescopio:block/vaonis_vespera2"
+    }
+  }
+}

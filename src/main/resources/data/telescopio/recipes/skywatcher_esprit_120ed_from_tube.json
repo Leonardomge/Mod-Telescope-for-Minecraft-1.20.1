@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_skywatcher_esprit_120ed"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    }
+  ],
+  "result": {
+    "item": "telescopio:skywatcher_esprit_120ed",
+    "count": 1
+  }
+}

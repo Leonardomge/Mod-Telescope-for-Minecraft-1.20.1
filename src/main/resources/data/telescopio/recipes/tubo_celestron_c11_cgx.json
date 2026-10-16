@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:schmidt_corrector"
+    },
+    {
+      "item": "telescopio:optical_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "telescopio:tubo_celestron_c11_cgx",
+    "count": 1
+  }
+}

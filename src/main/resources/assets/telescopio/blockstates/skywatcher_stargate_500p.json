@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/skywatcher_stargate_500p"
+    },
+    "facing=south": {
+      "model": "telescopio:block/skywatcher_stargate_500p"
+    },
+    "facing=east": {
+      "model": "telescopio:block/skywatcher_stargate_500p"
+    },
+    "facing=west": {
+      "model": "telescopio:block/skywatcher_stargate_500p"
+    }
+  }
+}

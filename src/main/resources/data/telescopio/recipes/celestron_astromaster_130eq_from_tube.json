@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_celestron_astromaster_130eq"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    }
+  ],
+  "result": {
+    "item": "telescopio:celestron_astromaster_130eq",
+    "count": 1
+  }
+}

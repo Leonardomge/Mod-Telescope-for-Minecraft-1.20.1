@@ -12,13 +12,13 @@
       "item": "telescopio:eyepiece"
     },
     {
-      "item": "telescopio:dobsonian_base"
-    },
-    {
       "item": "minecraft:black_dye"
     },
     {
       "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "telescopio:dobsonian_base"
     }
   ],
   "result": {

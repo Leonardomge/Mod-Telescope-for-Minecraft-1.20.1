@@ -28,7 +28,8 @@ public record AimMessage(BlockPos pos, float yaw, float alt) {
             return;
         }
         Level level = player.level();
-        if (!level.isLoaded(pos) || player.distanceToSqr(Vec3.atCenterOf(pos)) > 64.0) {
+        // os telescópios gigantes (até 10 blocos) podem ser observados de mais longe
+        if (!level.isLoaded(pos) || player.distanceToSqr(Vec3.atCenterOf(pos)) > 32.0 * 32.0) {
             return;
         }
         if (level.getBlockEntity(pos) instanceof TelescopeBlockEntity be) {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:astro_camera"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    },
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "telescopio:tripod"
+    }
+  ],
+  "result": {
+    "item": "telescopio:zwo_seestar_s30",
+    "count": 1
+  }
+}

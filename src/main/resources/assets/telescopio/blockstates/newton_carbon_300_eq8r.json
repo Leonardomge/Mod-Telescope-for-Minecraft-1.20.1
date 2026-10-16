@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/newton_carbon_300_eq8r"
+    },
+    "facing=south": {
+      "model": "telescopio:block/newton_carbon_300_eq8r"
+    },
+    "facing=east": {
+      "model": "telescopio:block/newton_carbon_300_eq8r"
+    },
+    "facing=west": {
+      "model": "telescopio:block/newton_carbon_300_eq8r"
+    }
+  }
+}

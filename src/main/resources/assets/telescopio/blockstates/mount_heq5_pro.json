@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_heq5_pro"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_heq5_pro"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_heq5_pro"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_heq5_pro"
+    }
+  }
+}

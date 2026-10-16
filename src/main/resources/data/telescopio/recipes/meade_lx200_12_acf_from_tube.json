@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:tubo_meade_lx200_12_acf"
+    },
+    {
+      "item": "telescopio:fork_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    }
+  ],
+  "result": {
+    "item": "telescopio:meade_lx200_12_acf",
+    "count": 1
+  }
+}

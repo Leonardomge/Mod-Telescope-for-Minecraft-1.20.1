@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:primary_mirror"
+    },
+    {
+      "item": "telescopio:primary_mirror"
+    },
+    {
+      "item": "telescopio:carbon_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "item": "telescopio:equatorial_mount"
+    },
+    {
+      "item": "telescopio:goto_controller"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "telescopio:newton_carbon_300_eq8r",
+    "count": 1
+  }
+}

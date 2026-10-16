@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/gso_rc8_carbon"
+    },
+    "facing=south": {
+      "model": "telescopio:block/gso_rc8_carbon"
+    },
+    "facing=east": {
+      "model": "telescopio:block/gso_rc8_carbon"
+    },
+    "facing=west": {
+      "model": "telescopio:block/gso_rc8_carbon"
+    }
+  }
+}

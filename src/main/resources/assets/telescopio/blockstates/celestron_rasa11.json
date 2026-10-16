@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/celestron_rasa11"
+    },
+    "facing=south": {
+      "model": "telescopio:block/celestron_rasa11"
+    },
+    "facing=east": {
+      "model": "telescopio:block/celestron_rasa11"
+    },
+    "facing=west": {
+      "model": "telescopio:block/celestron_rasa11"
+    }
+  }
+}

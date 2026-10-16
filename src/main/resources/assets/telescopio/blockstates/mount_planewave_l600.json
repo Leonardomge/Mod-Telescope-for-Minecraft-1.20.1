@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_planewave_l600"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_planewave_l600"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_planewave_l600"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_planewave_l600"
+    }
+  }
+}

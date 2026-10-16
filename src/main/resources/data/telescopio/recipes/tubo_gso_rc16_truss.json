@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:carbon_tube"
+    },
+    {
+      "item": "telescopio:eyepiece"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "result": {
+    "item": "telescopio:tubo_gso_rc16_truss",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:hyperbolic_mirror"
+    },
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:objective_lens"
+    },
+    {
+      "item": "telescopio:carbon_tube"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "telescopio:fork_mount"
+    }
+  ],
+  "result": {
+    "item": "telescopio:planewave_cdk2000",
+    "count": 1
+  }
+}

@@ -12,10 +12,10 @@
       "item": "telescopio:eyepiece"
     },
     {
-      "item": "telescopio:equatorial_mount"
+      "item": "minecraft:white_dye"
     },
     {
-      "item": "minecraft:white_dye"
+      "item": "telescopio:equatorial_mount"
     }
   ],
   "result": {

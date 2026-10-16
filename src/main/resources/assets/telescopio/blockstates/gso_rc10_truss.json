@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/gso_rc10_truss"
+    },
+    "facing=south": {
+      "model": "telescopio:block/gso_rc10_truss"
+    },
+    "facing=east": {
+      "model": "telescopio:block/gso_rc10_truss"
+    },
+    "facing=west": {
+      "model": "telescopio:block/gso_rc10_truss"
+    }
+  }
+}

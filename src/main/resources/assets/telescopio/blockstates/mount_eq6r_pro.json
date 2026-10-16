@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_eq6r_pro"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_eq6r_pro"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_eq6r_pro"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_eq6r_pro"
+    }
+  }
+}

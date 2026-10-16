@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "telescopio:block/mount_eq5"
+    },
+    "facing=south": {
+      "model": "telescopio:block/mount_eq5"
+    },
+    "facing=east": {
+      "model": "telescopio:block/mount_eq5"
+    },
+    "facing=west": {
+      "model": "telescopio:block/mount_eq5"
+    }
+  }
+}
